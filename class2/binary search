@@ -1,0 +1,12 @@
+
+1. set beg= LB, END= UB, mid=INT(BEG+END)/2
+2. repet steps 3 and 4 while beg <= end and data [mid] not eq item.
+3. if item < data [mid],then:
+	set end =mid-1
+	else: set beg = mid +1
+4. if data[mid]= item , then set loc =mid 
+	else : loc = null 
+5. exit
+
+
+

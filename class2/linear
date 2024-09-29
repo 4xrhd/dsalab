@@ -1,0 +1,11 @@
+1. set k=1 
+2. repert 3 and 4 while LOC =0; and K<or = N
+3. If ITEM = DATA[K]
+then set LOC=K
+
+4.set k=k+1
+
+5. if loc =0;than write item is not in the array data
+else LOC is the location of item
+
+6.exit 
