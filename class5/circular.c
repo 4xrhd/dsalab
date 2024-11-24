@@ -8,11 +8,8 @@ int size = 10;
 int isFull() {
     return (tail + 1) % size == head;
 }
-
 int isEmpty() {
-    return head == -1;
-}
-
+    return head == -1; }
 void enq(int x) {
     if (isFull()) {
         printf("Queue is full\n");

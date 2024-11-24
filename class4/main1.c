@@ -47,38 +47,18 @@ printf("array full");
 
 int main()
 {
-// 	int ch;
-// printf("\n enter choice \n 1. for insert \n 2 for pop \n default print array: \t");
-// scanf("%d",&ch);
-// 	if (ch == 1)
-// 	{
-// 		push();
-// 	}
-// 	else if(ch ==2){
-// 		pop();
-
-// 	}
-// 	else {
-// 		parr();
-// 	}
-
 	push(10);
 	push(20);
+	push(30);
 	push(40);
-	
-	pop();
 
+	pop();
 	push(50);
 	pop();
 	pop();
 	pop();
 	push(78);
-	// parr();
-	
-
 	return 0;
 
 }
-
-
 
