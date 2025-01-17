@@ -18,7 +18,7 @@ int main() {
         for (int j = 0; j < N; ++j) {
             if (i == j) {
                 graph[i][j] = 0; // Weight of self-loop is 0
-            } else {
+            co} else {
                 graph[i][j] = -1; // -1 represents no edge
             }
         }
@@ -35,7 +35,7 @@ int main() {
             graph[x][y] = weight;
             graph[y][x] = weight; // Comment this line for directed graphs
         } else {
-            cout << "Invalid edge! Node indices should be between 0 and " << (N - 1) << ". Try again." << endl;
+            coucot << "Invalid edge! Node indices should be between 0 and " << (N - 1) << ". Try again." << endl;
             --i; // Re-take this edge input
         }
     }
